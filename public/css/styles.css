@@ -1,0 +1,60 @@
+header {
+    background-color: yellow;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.titulares h3 {
+    font-size: 24px;
+}
+
+.precio {
+    font-size: 18px;
+}
+
+.descuento {
+    font-size: 16px;
+}
+
+.descripcion {
+    font-size: 16px;
+}
+
+.buger-menu {
+    background-color: #03264C;
+}
+
+.footer {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer fas fa-credit-card, fas fa-gift, fas fa-user-shield {
+    color: #03264C;
+    width: 2em;
+}
+
+
+/*Mobile
+@media screen and (min-width: 361px) {
+    .menu{
+        display: none;
+    }
+}*/
+/*tablet
+@media screen and (min-width: 361px) {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    .burger-menu {
+        display: none;
+    }
+}
+
+/*Destock
+@media screen and (min-width: 769px) {
+    .burger-menu {
+        display: none;
+    }
+}*/

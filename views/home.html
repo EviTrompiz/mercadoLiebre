@@ -5,106 +5,131 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercado Liebre</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <img src="static/images/logo-mercado-liebre.svg" alt="">
+        <div><img src="static/images/logo-mercado-liebre.svg" alt="Logo"></div>
 
-        <!--<div class = "barraDeBusqueda">
-            //<input type="Busqueda" placeholder="Buscar">
-        </div>
-    -->
         <nav>
-            <input type="Busqueda" placeholder="Buscar">
+            <input type="Busqueda" placeholder="Buscar"><i class="far fa-search"></i>
         </nav>
 
-        <h2> ¡Comprá en Cuotas y Sin Tarjeta de Crédito! </h2>
-        <ul type = Disc >
-            <li> <a href="#"> Ofertas </a> </li>
-            <li> <a href="#"> Tiendas Oficiales </a> </li>
-            <li> <a href="#"> Vender </a> </li>
-            <li> <a href="#"> Ayuda </a> </li>
-            <li> <a href="#"> Creá tu cuenta </a> </li>
-            <li> <a href="#"> Ingresá </a> </li>
-            <li> <a href="#"> Mis compras </a> </li>
-        </ul>
+        <h2><i class="fas fa-hand-holding-usd"></i> ¡Comprá en Cuotas y Sin Tarjeta de Crédito! </h2> 
+        <div class="menu">
+            <ul type = Disc >
+                <li> <a href="#"> Ofertas </a> </li>
+                <li> <a href="#"> Tiendas Oficiales </a> </li>
+                <li> <a href="#"> Vender </a> </li>
+                <li> <a href="#"> Ayuda </a> </li>
+            </ul>
+            <ul type = Disc >
+                <li> <a href="#"> Creá tu cuenta </a><i class="far fa-address-card"></i> </li>
+                <li> <a href="#"> Ingresá </a> <i class="fas fa-sign-in-alt"></i></li>
+                <li> <a href="#"> Mis compras </a> <i class="fas fa-shopping-basket"></i></li>
+            </ul>
+        </div>
+
+        <div class="burger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
     </header>
 
     <main>
-        <section class="products">
-            <div> <h3>Basado en tu última visita</h3>
+        <section class="visitas">
+            <h3 class="titulares">Basado en tu última visita</h3>
+            <div class="products"> 
                 <img src="static/images/img-cafetera-moulinex.jpg" alt="">
-                <p> $6.770 </p>
-                <p> 40% OFF </p>
-                <p> Cafetera Moulinex </p>
+                <p class="precio"> $6.770 </p>
+                <p class="descuento"> 40% OFF </p>
+                <p class="descripcion"> Cafetera Moulinex </p>
             </div>
 
-            <div>
+            <div class="products">
                 <img src="static/images/img-macbook-pro-2019.jpg" alt="">
-                <p> $230.000 </p>
-                <p> 20% OFF </p>
-                <p> MacBook Pro 2019 </p>
+                <p class="precio"> $230.000 </p>
+                <p class="descuento"> 20% OFF </p>
+                <p class="descripcion"> MacBook Pro 2019 </p>
             </div>
 
-            <div>
+            <div class="products">
                 <img src="static/images/img-samsung-galaxy-s10.jpg" alt="">
-                <p> $70.500 </p>
-                <p> 10% OFF </p>
-                <p> Samsung Galaxy S10 </p>
+                <p class="precio"> $70.500 </p>
+                <p class="descuento"> 10% OFF </p>
+                <p class="descripcion"> Samsung Galaxy S10 </p>
             </div>
 
-            <div>
+            <div class="products">
                 <img src="static/images/img-tv-samsung-smart.jpg" alt="">
-                <p> $23.200 </p>
-                <p> 5% OFF </p>
-                <p> SmartTv Samsumg 43" </p>
+                <p class="precio"> $23.200 </p>
+                <p class="descuento"> 5% OFF </p>
+                <p class="descripcion"> SmartTv Samsumg 43" </p>
             </div>
         </section>
 
-        <section>
-            <h3> Ofertas </h3>
-            <img src="static/images/img-cafetera-moulinex.jpg" alt="">
-            <p> $6.770 </p>
-            <p> 40% OFF </p>
-            <p> Cafetera Moulinex </p>
+        <section class="ofertas">
+            <h3 class="titulares"> Ofertas </h3>
+            <article class=" ofertas">
+                <img src="static/images/img-cafetera-moulinex.jpg" alt="">
+                <p class="precio"> $6.770 </p>
+                <p class="descuento"> 40% OFF </p>
+                <p class="descripcion"> Cafetera Moulinex </p>
+            </article>
 
-            <img src="static/images/img-macbook-pro-2019.jpg" alt="">
-            <p> $230.000 </p>
-            <p> 20% OFF </p>
-            <p> MacBook Pro 2019 </p>
+            <article class="ofertas">
+                <img src="static/images/img-macbook-pro-2019.jpg" alt="">
+                <p class="precio"> $230.000 </p>
+                <p class="descuento"> 20% OFF </p>
+                <p> MacBook Pro 2019 </p>
+            </article>
 
-            <img src="static/images/img-samsung-galaxy-s10.jpg" alt="">
-            <p> $70.500 </p>
-            <p> 10% OFF </p>
-            <p> Samsung Galaxy S10 </p>
+            <article class="ofertas">
+                <img src="static/images/img-samsung-galaxy-s10.jpg" alt="">
+                <p class="precio"> $70.500 </p>
+                <p class="descuento"> 10% OFF </p>
+                <p class="descripcion"> Samsung Galaxy S10 </p>
+            </article>
 
-            <img src="static/images/img-tv-samsung-smart.jpg" alt="">
-            <p> $23.200 </p>
-            <p> 5% OFF </p>
-            <p> SmartTv Samsumg 43" </p> 
+            <article class="ofertas">
+                <img src="static/images/img-tv-samsung-smart.jpg" alt="">
+                <p class="precio"> $23.200 </p>
+                <p class="descuento"> 5% OFF </p>
+                <p class="descripcion"> SmartTv Samsumg 43" </p> 
+            </article>
         </section>
+
     </main>
 
     <footer>
-        <section>
-            <h2> Pagá con Tarjeta o en efectivo </h2>
-            <div> Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
-                puntos de pago. ¡Y siempre es seguro! </div>
-        </section>
+        <section class="footer">
+            <article class="footer">
+                <i class="fas fa-credit-card"></i>
+                <h4> Pagá con Tarjeta o en efectivo </h4>
+                <p> Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                puntos de pago. ¡Y siempre es seguro! </p>
+            </article>
 
-        <section>
-            <h2> Envío gratis desde los $2.500 </h2>
-            <div> Sólo por estar registrado en Mercado Liebre
+            <article class="footer">
+                <i class="fas fa-gift"></i>
+                <h4> Envío gratis desde los $2.500 </h4>
+                <p> Sólo por estar registrado en Mercado Liebre
                 tenér envíos gratis en miles de productos. Es
-                un beneficio de Mercado Puntos. </div>
-        </section>
-        
-        <section>
-            <h2> Seguridad de Principio a Fin </h2>
-            <div> ¿No te gusta? ¡Devolvelo! En MercaLiebre
-                no hay nada que no puedas hacer porque estás
-                siempre protegid@ </div>
+                un beneficio de Mercado Puntos. </p>
+            </article>
+
+            <article class="footer">
+                <i class="fas fa-user-shield"></i>
+                <h4> Seguridad de Principio a Fin </h4>
+                <p> ¿No te gusta? ¡Devolvelo! En MercaLiebre
+                    no hay nada que no puedas hacer porque estás
+                    siempre protegid@ </p>
+            </article>
+
             <p> Copyrigth 1999-2020 Mercado Liebre S.R.L. </p>
+        
         </section>
     </footer>
     
